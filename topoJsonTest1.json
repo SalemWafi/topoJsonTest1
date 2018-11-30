@@ -1,7 +1,17 @@
 {
-	"type":"Topology",
-	"arcs":
-		[
+  "type": "Topology",
+  "transform": {
+    "scale": [0.036003600360036005, 0.017361589674592462],
+    "translate": [-180, -89.99892578124998]
+  },
+  "objects": {
+    "GE2": {
+      "type": "Polygon",
+      "arcs": [[0]],
+      "id": 533
+    }
+  },
+  "arcs":       [
 			[
 				[ 400.1769437, 393.7564592 ],
 				[ 446.818412, 414.3332825 ],
@@ -13,37 +23,5 @@
 				[ 308.5136326, 376.234316 ],
 				[ 389.6616941, 351.5406036 ]
 			]
-                ],
-
-  	"transform": 
-			{
-    				"scale":[0.036003600360036005, 0.017361589674592462],
-    				"translate":[-180, -89.99892578124998]
-  		        },
-	"objects":
-			{
-				"building":
-						{
-							"type":"GeometryCollection",
-							"geometries":
-									[
-										{
-											"arcs":[[0,1,2,3,4,5,6,7,8]],
-											"type":"Polygon",
-											"properties":
-													{
-														"ID_0":240,
-														"ISO":"USA",
-														"NAME_0":"United States",
-														"ID_1":28,
-														"NAME_1":"Garage Equipment 2",
-														"NL_NAME_1":null,
-														"VARNAME_1":"GE2",
-														"TYPE_1":"State",
-														"ENGTYPE_1":"State"
-													}
-										}
-									]
-						}
-			}
+                ]
 }
